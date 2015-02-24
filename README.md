@@ -1,4 +1,4 @@
-# TowerWars
+# TowerWarZ
 Open source Tower Defense Game
 
 ```
@@ -13,12 +13,13 @@ Open source Tower Defense Game
                                                      
 ```
 ## Introduction
-Tower Wars is a fully open-source Tower Defense Game. ~~It is created because of the lack of open source games~~ It is created **out of boredom**
+TowerWarZ is a fully open-source Tower Defense Game. ~~It is created because of the lack of open source games~~ It is created **out of boredom**
 
 -=BitcraftMC Presents...=-
 
 TOWER WARS!
 
+DONT LOOK HERE!!
 ### Sponsoring
 What we currently lack: 
 - CI Server (Jenkins preffered)
