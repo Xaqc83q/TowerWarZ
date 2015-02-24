@@ -21,7 +21,7 @@ env:
 matrix:
   exclude:
     - python: 2.6
-    env: JYTHON=true
+      env: JYTHON=true
 
 # Install Jython first
 # Use Jython BETA
