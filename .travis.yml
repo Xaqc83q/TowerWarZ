@@ -1,38 +1,11 @@
-# Use python as language
-
+# Python
 language: python
-
-# Python versions to test before fails
-
 python:
   - "2.6"
   - "2.7"
-
-# Test script
-
-script: python setup.py test
-
-# Make Jython
-env:
-  - JYTHON=true
-  - JYTHON=false
   
-# If Jython = True
-matrix:
-  exclude:
-    - python: 2.6
-      env: JYTHON=true
+# Install Dependencies
+install: "pip install -r dependencies.txt"
 
-# Install Jython first
-# Use Jython BETA
-
-before_install:
-  - export JYTHON_LOCATION='http://downloads.sourceforge.net/project/jython/jython/2.5.2/jython_installer-2.5.2.jar'
-  - if [ "$JYTHON" == "true" ]; then wget $JYTHON_LOCATION -O jython_installer-2.5.2.jar; java -jar jython_installer.jar -s -d $HOME/jython; export PATH=$HOME/jython:$PATH; fi
-  
-# Allow Jython use
-
-before_script: if [ "$JYTHON" == "true" ]; then export PYTHON_EXE=jython; jython -c "print ''"; else export PYTHON_EXE=python; fi
-
-script: $PYTHON_EXE setup.py test
-
+# Run tests
+script: nosetests
