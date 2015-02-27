@@ -14,7 +14,7 @@ import java.util.Random;
 
 public class GatlingGunLv1 {
     public String def = "";
-    
+
     public int GatlingGunLv1TotalCost = 10;
 
     public int GatlingGunLv1Cost = 10;
