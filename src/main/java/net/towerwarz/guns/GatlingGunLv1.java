@@ -27,8 +27,10 @@ public class GatlingGunLv1 {
     int randomnum = rand.nextInt((max - min) + 1) + min;
     // create Damage
     public int GatlingGunLv1Dmg = randomnum;
-    /*do you got a range for this?
-    */
+    /*do you got a range for this? 
+     * Yup (Reply)
+     * look at the max - min (Thats the range)
+     */
 
     //Note: Double is an floating-point number
     public double GatlingGunLv1SplashRadius=0.01;
