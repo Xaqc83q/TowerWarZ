@@ -20,7 +20,7 @@ TowerWarZ is a fully open-source Tower Defense Game. ~~It is created because of 
 TOWER WARS!
 
 ## Travis-CI Build Status
-[![Build Status](https://travis-ci.org/xiurobert/TowerWars.svg)](https://travis-ci.org/xiurobert/TowerWars)
+[![Build Status](https://travis-ci.org/xiurobert/TowerWarZ.svg?branch=master)](https://travis-ci.org/xiurobert/TowerWarZ)
 
 DONT LOOK HERE!!
 ### Sponsoring
