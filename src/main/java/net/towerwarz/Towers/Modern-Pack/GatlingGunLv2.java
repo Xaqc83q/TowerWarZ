@@ -1,4 +1,4 @@
-package net.towerwarz.guns;
+package net.towerwarz.Towers;
 
 /**
  * Created by xiurobert on 2/27/2015.
