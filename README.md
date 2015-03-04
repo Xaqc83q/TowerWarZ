@@ -22,12 +22,12 @@ TOWER WARS!
 ## Travis-CI Build Status
 [![Build Status](https://travis-ci.org/xiurobert/TowerWarZ.svg?branch=master)](https://travis-ci.org/xiurobert/TowerWarZ)
 
-DONT LOOK HERE!!
+~~DONT LOOK HERE!!
 ### Sponsoring
 What we currently lack: 
 - CI Server (Jenkins preffered)
 - Bug Tracker (How Ineffective)
-If you would like to sponsor us, please contact [BehChuenYang](mailto:depictiger@gmail.com) or [xiurobert](mailto:xiurobert@gmail.com) via email. It is very greatly appreciated!
+If you would like to sponsor us, please contact [BehChuenYang](mailto:depictiger@gmail.com) or [xiurobert](mailto:xiurobert@gmail.com) via email. It is very greatly appreciated!~~
 
 #### Copyrights
 As this is FREE SOFTWARE, we do not restrict you to anything, but please put our GitHub usernames if you decide to release
