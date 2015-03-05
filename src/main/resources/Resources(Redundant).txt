@@ -4,22 +4,22 @@ root
   L src
      |
      L main
-        |
-        L java
-            |
-            L net
-                L towerwarz
-                      |
-                      L towers
-                          |
-                          L AncientPack
-                          |      |
-                          |      L Swordsman
-                          |         |
-                          |         L Swordsman.java
-                          |
-                          |
-                          |
-                          L ModernPack
+     |   |
+     |   L java
+     |   |    |
+     |   |   L net
+        |        L towerwarz
+        |              |
+        |              L towers
+        |                  |
+        |                  L AncientPack
+        |                  |      |
+        |                  |      L Swordsman
+        |                  |         |
+        |                  |         L Swordsman.java
+        |                  |
+        |                  |
+        |                  |
+        |                  L ModernPack
         L resources
      L test
