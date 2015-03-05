@@ -1,3 +1,25 @@
-Welp, it goes here.
-.mp3:
-This file is to keep src/main/resources
+package LIST:
+root
+  |
+  L src
+     |
+     L main
+        |
+        L java
+            |
+            L net
+                L towerwarz
+                      |
+                      L towers
+                          |
+                          L AncientPack
+                          |      |
+                          |      L Swordsman
+                          |         |
+                          |         L Swordsman.java
+                          |
+                          |
+                          |
+                          L ModernPack
+        L resources
+     L test
