@@ -10,9 +10,9 @@ public class GatlingGunLv3 {
     int maxDmg = 8;
     int minDmg = 4;
     Random rand = new Random();
-    public int GatlingGunLv2Dmg = rand.nextInt((maxDmg - minDmg) + 1) + minDmg;
-    public double GatlingGunLv2SplashRadius = 0.01;
-    public double GatlingGunLv2ReloadRate = 0.01;
+    public int GatlingGunLv3Dmg = rand.nextInt((maxDmg - minDmg) + 1) + minDmg;
+    public double GatlingGunLv3SplashRadius = 0.01;
+    public double GatlingGunLv3ReloadRate = 0.01;
 
     int spreadRadius=18
 }
