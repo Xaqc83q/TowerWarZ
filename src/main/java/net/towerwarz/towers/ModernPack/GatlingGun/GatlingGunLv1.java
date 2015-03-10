@@ -56,8 +56,5 @@ public class GatlingGunLv1 {
     // Note we ommit the % sign
 
     //Gen randomnumber
-    Random GatlingLv1Miss = new Random();
-    int Lv1Miss = GatlingLv1Miss.nextInt((20 - 10) + 1) + 10;
-
-    public int GatlingGunLv1MissRate = Lv1Miss;
+    public int GatlingGunLv1SpreadRadius=18
 }
