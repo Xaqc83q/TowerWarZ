@@ -15,9 +15,9 @@ import java.util.Random;
 public class GatlingGunLv1 {
     public String def = "";
 
-    public int GatlingGunLv1TotalCost = 10;
+    public int GatlingGunLv1TotalCost = 100;
 
-    public int GatlingGunLv1Cost = 10;
+    public int GatlingGunLv1Cost = 100;
 
     //Set max and min
     int max = 5;
