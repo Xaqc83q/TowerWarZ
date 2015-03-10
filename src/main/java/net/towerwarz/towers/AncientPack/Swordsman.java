@@ -6,6 +6,5 @@ package net.towerwarz.towers.AncientPack;
  */
  
 public class Swordsman {
-        public int /*You know what to put here! */
 }
   
