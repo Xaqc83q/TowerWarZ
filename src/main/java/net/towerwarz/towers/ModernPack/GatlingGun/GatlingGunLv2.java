@@ -8,8 +8,8 @@ import java.util.Random;
 
 public class GatlingGunLv2 {
     public String def = "Refined Barrel Machine Gun";
-    public int GatlingGunLv2TotalCost = 40;
-    public int GatlingGunLv2UpgradeCost = 30;
+    public int GatlingGunLv2TotalCost = 400;
+    public int GatlingGunLv2UpgradeCost = 300;
 
     //Dang you -> Random
     //Set max and min
