@@ -9,5 +9,5 @@ Please add more!!
  */
 
 public enum GunsListEnumRedundant {
-    GatlingGun,
+    GatlingGun,MachineGun
 }

@@ -7,4 +7,4 @@
  * Used to render the Gatling Gun and its resources
  * (src/main/resources)
  */
-package net.towerwarz.towers.GatlingGun.GatlingGunCoreData;
+package net.towerwarz.towers.ModernPack.GatlingGun.GatlingGunCoreData;

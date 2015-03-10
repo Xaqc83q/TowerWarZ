@@ -1,9 +1,11 @@
 /**
- * Created by xiurobert on 3/3/2015.
+ * Created by xiurobert on 3/5/2015.
  */
 
+package net.towerwarz.towers.ModernPack.GatlingGun;
+
 /**
- * Gatling Gun Package
- * This package has all the files for the GatlingGun
+ * This is a package to hold the Gatling Gun data
+ * There is all the movement info in here.
+ *
  */
-package net.towerwarz.towers.GatlingGun;

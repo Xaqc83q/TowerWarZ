@@ -1,4 +1,4 @@
-package net.towerwarz.towers.GatlingGun;
+package net.towerwarz.towers.ModernPack.GatlingGun;
 
 /**
  * Created by xiurobert on 2/27/2015.
