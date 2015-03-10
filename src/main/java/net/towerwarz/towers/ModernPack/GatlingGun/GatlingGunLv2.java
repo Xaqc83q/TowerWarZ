@@ -21,12 +21,6 @@ public class GatlingGunLv2 {
     public double GatlingGunLv2SplashRadius = 0.01;
     public double GatlingGunLv2ReloadRate = 0.05;
 
-    //Same as Lv1
-
-    int maxMiss = 15;
-    int minMiss = 9;
-    Random MissRand = new Random();
-
-    public int GatlingGunLv2MissRate = MissRand.nextInt((maxMiss - minMiss) + 1) + minMiss;
+   public int GatlingGunlv2SpreadRadius=18
 
 }
