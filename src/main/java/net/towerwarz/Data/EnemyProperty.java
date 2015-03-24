@@ -1,13 +1,15 @@
 package net.towerwarz.Data;
-//like always, i do not know the import.
-//
+
 public class EnemyBehavior{
-//well the name says it all
-//
-private EnemyWalkDirection(){
-public str targetDirection="North"
-public str
-//sorry idk how to plugin the directions if it is wrong dont blame me me new
-//
-}
+
+    public EnemyWalkDirection(){
+        String targetDirection="North";
+        /*
+         * Rules Of Java
+         * 1. ALWAYS PUT A SEMICOLON TO TERMINATE A LINE!!! THIS IS TIME NUMBER #30000
+         * 2. ALWAYS SPELL FULLY! E.g. String!!!
+         * 3. Capitalization is IMPORTANT!! String and string are 2 DIFFERENT THINGS!!!
+         * 4. USLESS COMMENTS -> REMOVE
+         */
+    }
 }
