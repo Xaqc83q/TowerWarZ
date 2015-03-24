@@ -10,7 +10,7 @@
     <!-- Repos
     -->
     <repositories>
-      <id>Sonatype-public <!--sonatype oss--></id>
+      <id>Sonatype-public</id>
       <name>SnakYAML-repo</name>
       <url>http://oss.sonatype.org/content/groups/public/</url>
     </repositories>
