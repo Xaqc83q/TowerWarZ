@@ -5,7 +5,7 @@ package net.towerwarz.towers.AncientPack;
  */
  
 public class Swordsman {
-public String def = "Swordsman"
- public int SwordsmanLv1TotalCost = 100
+    public String def = "Swordsman"
+    public int SwordsmanLv1TotalCost = 100
 }
   
