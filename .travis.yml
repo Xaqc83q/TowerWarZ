@@ -4,4 +4,4 @@ jdk:
   - oraclejdk8
   - oraclejdk7
   - openjdk7
-script: ./ci/maven-test.sh
+after_failure: true
