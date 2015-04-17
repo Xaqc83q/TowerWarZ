@@ -1,10 +1,9 @@
-# Java
 language: java
 jdk:
-  - oraclejdk8
-  - oraclejdk7
-  - openjdk7
+- oraclejdk8
+- oraclejdk7
+- openjdk7
 notifications:
   hipchat:
     rooms:
-    - 5b247572afe0d25eb55252fee05bc1@1371250 #Unfinished The API key is fake
+      secure: THeVKnnAhencuR03zX8JVlzqDPWiH98XACdz2VXd285qrVhAr7iSi/hBXCyLWOxPdl+G2Lu0TIFfOWyMNTgItg/U9Vzit3mAoULz6ony/I7lN0WH5HUrOeys61eWR+FItNgtosT1At8niR9pP+/IZKq1OBEwnViGhhzS1BbWG4U=
