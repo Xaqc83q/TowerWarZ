@@ -3,6 +3,7 @@ jdk:
 - oraclejdk8
 - oraclejdk7
 - openjdk7
+# We used IntelliJ IDEA to fix problems 
 notifications:
   hipchat:
     rooms:
