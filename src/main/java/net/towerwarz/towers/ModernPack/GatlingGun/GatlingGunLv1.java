@@ -56,5 +56,5 @@ public class GatlingGunLv1 {
     // Note we ommit the % sign
 
     //Gen randomnumber
-    public int GatlingGunLv1SpreadRadius=18
+    public int GatlingGunLv1SpreadRadius=18;
 }

@@ -4,9 +4,10 @@ package net.towerwarz.towers.ModernPack.GatlingGun;
  * Created by xiurobert on 2/27/2015.
  */
 
+import java.util.Random;
+
 public class GatlingGunLv3 {
     public String def = "MoreBarrels";
-    public int
     int maxDmg = 8;
     int minDmg = 4;
     Random rand = new Random();
@@ -14,6 +15,5 @@ public class GatlingGunLv3 {
     public double GatlingGunLv3SplashRadius = 0.01;
     public double GatlingGunLv3ReloadRate = 0.01;
 
-    int spreadRadius=18
-}
+    int spreadRadius=18;
 }

@@ -21,6 +21,6 @@ public class GatlingGunLv2 {
     public double GatlingGunLv2SplashRadius = 0.01;
     public double GatlingGunLv2ReloadRate = 0.05;
 
-   public int GatlingGunlv2SpreadRadius=18
+   public int GatlingGunlv2SpreadRadius=18;
 
 }
