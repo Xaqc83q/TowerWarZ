@@ -14,5 +14,3 @@ hs_err_pid*
 # maven generated directories
 target/
 
-# for the time, tar files
-*.tar.gz
