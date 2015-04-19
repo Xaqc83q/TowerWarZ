@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2b15f14-820c-4f7b-b18d-5b6b32a8b385" name="Default" comment="create main class">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CREDITS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DONATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/main.java" />
+    <list default="true" id="d2b15f14-820c-4f7b-b18d-5b6b32a8b385" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TowerWarZ.iws" />
@@ -609,7 +606,7 @@
       <workItem from="1425560100435" duration="975000" />
       <workItem from="1425561468657" duration="687000" />
       <workItem from="1429404127328" duration="703000" />
-      <workItem from="1429405211726" duration="2892000" />
+      <workItem from="1429405211726" duration="2902000" />
     </task>
     <task id="LOCAL-00001" summary="Created GatlingGun Level 3">
       <created>1425024764876</created>
@@ -617,11 +614,17 @@
       <option name="project" value="LOCAL" />
       <updated>1425024764876</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create main class">
+      <created>1429409360016</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1429409360016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11115000" />
+    <option name="totallyTimeSpent" value="11125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2586" height="1394" extended-state="6" />
