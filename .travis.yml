@@ -2,10 +2,7 @@ language: java
 jdk:
 - oraclejdk8
 # No more jdk7
-os:
-- osx # new
-- linux
-- windows # New
+
 # We used IntelliJ IDEA to fix problems 
 notifications:
   hipchat:
