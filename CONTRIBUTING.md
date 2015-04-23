@@ -9,20 +9,26 @@ We appreciate contributions of any kind, however to keep this clean, this is wha
 3. We need people to do the graphics! We have a reason for making it Open-source! Please, we need contributers! Thanks!
 4. Use an IDE. We don't like nasty build failures, this hampers our debugging.
 
+  Supported IDEs:
+    -> IntelliJ IDEA 14.1
+    -> IntelliJ IDEA 14.0
+    -> NetBeans 8
+  
+  Eclipse is no longer supported
+
 ## How to contribute
 1. Fork this repo
 2. Do your contributions in the fork
 3. Make a pull request
-4. If pull request is accepted, we will invite you to colllaborate
 
 Thank you!
 
--Lightning Foundation
+-The Lightning Software Foundation
 
 ### Issues
 We will be using the GitHub Issue tracker until we get BugZilla up
 
-1. Title: [HELP/BUG/FEATURE REQUEST] (Issue)
+1. Title: [HELP/BUG/FEATURE REQUEST]<->(Issue)
 2. Body: (Issue) {newline} (Logs)
 3. Duplicates will be REJECTED instantly
-4. Propetiary usage -> See the GPL
+4. Proprietary usage -> See the GPL

@@ -14,15 +14,21 @@
                     <name>SnakeYAML-repo</name>
                     <url>http://oss.sonatype.org/content/groups/public</url>
                 </repository>
+                <repository>
+                    <id>xiurobert-ftp</id>
+                    <name>Lightning-SF-repo</name>
+                    <url>http://xiurobert.byethost9.com/maven3/</url>
+                </repository>
             </repositories>
             <build>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
+                        <version>3.3</version>
                         <configuration>
-                            <source>1.7</source>
-                            <target>1.7</target>
+                            <source>1.8</source>
+                            <target>1.8</target>
                         </configuration>
                     </plugin>
                 </plugins>
@@ -35,11 +41,10 @@
                     <version>2.9.3</version>
                 </dependency>
                 <dependency>
-                <!--SnakeYAML-->
-                <groupId>org.yaml</groupId>
-                <artifactId>snakeyaml</artifactId>
-                <version>1.16-SNAPSHOT</version>
+                    <!--SnakeYAML-->
+                    <groupId>org.yaml</groupId>
+                    <artifactId>snakeyaml</artifactId>
+                    <version>1.16-SNAPSHOT</version>
                 </dependency>
             </dependencies>
-            <!-- Added comment to re-push-->
 </project>
