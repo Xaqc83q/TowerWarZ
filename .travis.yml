@@ -3,6 +3,10 @@ jdk:
 - oraclejdk8
 - oraclejdk7
 - openjdk7
+os:
+- osx # new
+- linux
+- windows # New
 # We used IntelliJ IDEA to fix problems 
 notifications:
   hipchat:
