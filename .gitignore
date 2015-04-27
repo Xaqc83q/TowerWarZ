@@ -3,7 +3,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files 
 *.jar
 *.war
 *.ear
@@ -16,4 +16,15 @@ target/
 
 # mac dust
 .DS_Store/
+
+# Eclipse trash
+.project
+
+# IntelliJ IDEA Trash is still being uploaded?????
+.idea/
+*.iml
+
+# Don't you dare upload any ANT xmls!
+build.xml
+
 
