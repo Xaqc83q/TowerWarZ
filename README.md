@@ -30,3 +30,7 @@ As this is FREE SOFTWARE, we do not restrict you to anything, but please put our
 another version of this
 
 Thank you!
+
+##### Donating?
+
+<img src="//img.shields.io/gratipay/xiurobert.svg">
