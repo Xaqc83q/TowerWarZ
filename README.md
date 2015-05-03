@@ -33,4 +33,4 @@ Thank you!
 
 ##### Donating?
 
-<img src="//img.shields.io/gratipay/xiurobert.svg">
+[![GratiPay SVG](http://img.shields.io/gratipay/xiurobert.svg)](http://gratipay.com/xiurobert/)
