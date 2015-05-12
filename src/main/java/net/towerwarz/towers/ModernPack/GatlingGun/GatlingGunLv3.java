@@ -14,7 +14,7 @@ public class GatlingGunLv3 {
     public int GatlingGunLv3Dmg = rand.nextInt((maxDmg - minDmg) + 1) + minDmg;
     public double GatlingGunLv3SplashRadius = 0.01;
     public double GatlingGunLv3ReloadRate = 0.01;
-    boolean canDetectCamo = false
+    public boolean canDetectCamo = false
 
     int spreadRadius=18;
 }
