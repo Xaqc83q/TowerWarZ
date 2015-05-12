@@ -13,7 +13,7 @@ Remember to capitalise!
 import java.util.Random;
 
 public class GatlingGunLv1 {
-    public String def = "";
+    public String def = "What do you expect? A nuke straight off the bat?";
 
     public int GatlingGunLv1TotalCost = 100;
 
@@ -43,6 +43,7 @@ public class GatlingGunLv1 {
     because it will round off
      */
     public double GatlingGunLv1ReloadRate = 0.05;
+    public boolean canDetectCamo = false
 
 
     /*
