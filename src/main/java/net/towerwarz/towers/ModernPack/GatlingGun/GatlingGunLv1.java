@@ -43,7 +43,7 @@ public class GatlingGunLv1 {
     because it will round off
      */
     public double GatlingGunLv1ReloadRate = 0.05;
-    public boolean canDetectCamo = false
+    public boolean canDetectCamo = false;
 
 
     /*
