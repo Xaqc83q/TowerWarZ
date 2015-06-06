@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.yaml:snakeyaml:1.16-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.16-SNAPSHOT/snakeyaml-1.16-20150219.161740-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.16-SNAPSHOT/snakeyaml-1.16-20150526.194536-4.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.16-SNAPSHOT/snakeyaml-1.16-20150219.161740-1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.16-SNAPSHOT/snakeyaml-1.16-20150526.194536-4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.16-SNAPSHOT/snakeyaml-1.16-20150219.161740-1-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.16-SNAPSHOT/snakeyaml-1.16-20150526.194536-4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
