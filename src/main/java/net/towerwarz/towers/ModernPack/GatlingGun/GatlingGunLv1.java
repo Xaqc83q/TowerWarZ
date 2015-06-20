@@ -24,7 +24,7 @@ public class GatlingGunLv1 {
     int min = 1;
     //Gen random number between 1 and 5
     Random rand  = new Random();
-    int randomnum = rand.nextInt((max - min) + 1) + min;
+    int randomnum = rand.nextInt((max - min) + 1) + min;  // Note that we are deprecating this soon
     // create Damage
     public int GatlingGunLv1Dmg = randomnum;
 
@@ -41,6 +41,9 @@ public class GatlingGunLv1 {
     when print(somethingelse);
     you get 20.25
     because it will round off
+
+
+    Actually, why am I teaching you java????
      */
     public double GatlingGunLv1ReloadRate = 0.05;
     public boolean canDetectCamo = false;

@@ -1,6 +1,15 @@
 # TowerWarZ
 Open source Tower Defense Game
 
+We love badges
+
+[![Stories in Ready](https://badge.waffle.io/xiurobert/TowerWarZ.svg?label=ready&title=Ready)](http://waffle.io/xiurobert/TowerWarZ)
+[![GratiPay SVG](http://img.shields.io/gratipay/xiurobert.svg)](http://gratipay.com/xiurobert/)
+[![Build Status](https://travis-ci.org/xiurobert/TowerWarZ.svg?branch=master)](https://travis-ci.org/xiurobert/TowerWarZ)
+[![GitHub issues](https://img.shields.io/github/issues/xiurobert/TowerWarZ.svg)](https://github.com/xiurobert/TowerWarZ/issues)
+
+
+
 ```
   _______                  __          __            
  |__   __|                 \ \        / /            
