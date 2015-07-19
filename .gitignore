@@ -19,6 +19,8 @@ target/
 
 # Eclipse trash
 .project
+.classpath
+# ---- Well we are using maven anyway...
 
 # IntelliJ IDEA Trash is still being uploaded?????
 .idea/
