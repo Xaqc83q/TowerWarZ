@@ -25,5 +25,7 @@ target/
 # Don't you dare upload any ANT xmls!
 build.xml
 
+# Eclipse is taking over your life!
+/.settings
 
 
