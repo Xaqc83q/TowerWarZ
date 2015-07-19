@@ -5,4 +5,4 @@ Thanks to:
 
 @BehChuenYang
 
-And many other contributors(yes, 2 is a lot to me)
+And many other contributors (yes, 2 is a lot to me)

@@ -6,7 +6,30 @@
 
             <groupId>net.towerwarz</groupId>
             <artifactId>TowerWarZ</artifactId>
-            <version>1.0.1-InDes</version>
+            <version>git-TowerWarZ_v1.0.1-InDes</version>
+
+            <licenses>
+                <license>
+                    <name>GNU General Public License v3</name>
+                    <url>http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java</url>
+                </license>
+            </licenses>
+
+            <developers>
+
+                <developer>
+                    <name>Robert Xiu</name>
+                    <email>xiurobert@gmail.com</email>
+                    <organization>Lightning-SF</organization>
+                    <organizationUrl>http://github.com/Lightning-SF</organizationUrl>
+                </developer>
+
+                <developer>
+                    <name>Beh Chuen Yang</name>
+                    <email><!-- Private guys, sorry --></email>
+                </developer>
+
+            </developers>
 
             <repositories>
                 <repository>
@@ -16,12 +39,19 @@
                 </repository>
                 <repository>
                     <id>xiurobert-ftp</id>
-                    <name>Lightning-SF-repo</name>
+                    <name>Lightning-SF repo</name>
                     <url>http://xiurobert.byethost9.com/maven3/</url>
                 </repository>
             </repositories>
+
+
+
             <build>
+
+                <!-- Stolen from BukkitWiki (Makes sure Maven uses java 8) -->
                 <plugins>
+
+
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
@@ -31,20 +61,71 @@
                             <target>1.8</target>
                         </configuration>
                     </plugin>
+
+                    <plugin>
+                        <groupId>org.jacoco</groupId>
+                        <artifactId>jacoco-maven-plugin</artifactId>
+                        <version>0.7.2.201409121644</version>
+                        <executions>
+                            <execution>
+                                <id>prepare-agent</id>
+                                <goals>
+                                    <goal>prepare-agent</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+
                 </plugins>
             </build>
             <dependencies>
+
                 <dependency>
                     <!--LWJGL-->
                     <groupId>org.lwjgl</groupId>
                     <artifactId>lwjgl</artifactId>
                     <version>3.0.0a</version>
                 </dependency>
+
                 <dependency>
                     <!--SnakeYAML-->
                     <groupId>org.yaml</groupId>
                     <artifactId>snakeyaml</artifactId>
                     <version>1.16-SNAPSHOT</version>
                 </dependency>
+
+
+                <!-- Coveralls plugin from Maven Central-->
+                <dependency>
+                    <groupId>org.eluder.coveralls</groupId>
+                    <artifactId>coveralls-maven-plugin</artifactId>
+                    <version>3.1.0</version>
+                </dependency>
             </dependencies>
+
+            <ciManagement>
+                <system>Travis CI</system>
+                <url>http://travis-ci.org/xiurobert/TowerWarZ</url>
+            </ciManagement>
+
+
+
 </project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Silence is golden -->

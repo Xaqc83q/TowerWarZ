@@ -31,4 +31,4 @@ We will be using the GitHub Issue tracker until we get BugZilla up
 1. Title: [HELP/BUG/FEATURE REQUEST]<->(Issue)
 2. Body: (Issue) {newline} (Logs)
 3. Duplicates will be REJECTED instantly
-4. Proprietary usage -> See the GPL
+4. Proprietary usage -> See the GPL. We are not here to explain about proprietary usage -.-

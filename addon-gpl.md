@@ -3,4 +3,8 @@
 "This project" refers to TowerWarZ
 "The authors", "The contributors" refers to those parties who have pushed at least 1 commit to TowerWarZ (master)
 
-##### Everything you need to know, in plain English
+__Everything you need to know in plain English__
+
+1. This is _free_ software. No need to pass this off as your own work...
+2. You wanna buy this? __Nope.__
+3. You wanna include code from this? Sure! Just make sure you cite your sources... AND NO PROPETIARY PROGRAMS (Excuse my spelling)
