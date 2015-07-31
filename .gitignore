@@ -26,6 +26,8 @@ target/
 build.xml
 
 # Eclipse is taking over your life!
-/.settings
+.settings/
 
+# NetBeans
+nbproject/
 
