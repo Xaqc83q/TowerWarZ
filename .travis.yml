@@ -1,12 +1,7 @@
-sudo: required
 language: java
 jdk:
 - oraclejdk8
 # No more jdk7
-
-before_install: "sudo apt-get update && sudo apt-get upgrade"
-
-script: "./setup.sh"
 
 after_success:
   - 'mvn clean test jacoco:report coveralls:report'
