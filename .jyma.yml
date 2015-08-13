@@ -1,0 +1,104 @@
+#  _____              _ _     _                   _
+#  |  __ \            ( ) |   | |                 | |
+#  | |  | | ___  _ __ |/| |_  | |_ ___  _   _  ___| |__
+#  | |  | |/ _ \| '_ \  | __| | __/ _ \| | | |/ __| '_ \
+#  | |__| | (_) | | | | | |_  | || (_) | |_| | (__| | | |
+#  |_____/ \___/|_| |_|  \__|  \__\___/ \__,_|\___|_| |_|
+
+#   _    _       _
+#   | |  | |     | |
+#   | |  | |_ __ | | ___  ___ ___
+#   | |  | | '_ \| |/ _ \/ __/ __|
+#   | |__| | | | | |  __/\__ \__ \
+#    \____/|_| |_|_|\___||___/___/
+
+#  __     __           _
+#   \ \   / /          | |
+#    \ \_/ /__  _   _  | | ___ __   _____      __
+#     \   / _ \| | | | | |/ / '_ \ / _ \ \ /\ / /
+#      | | (_) | |_| | |   <| | | | (_) \ V  V /
+#      |_|\___/ \__,_| |_|\_\_| |_|\___/ \_/\_/
+
+# __          ___           _
+#  \ \        / / |         | |
+#   \ \  /\  / /| |__   __ _| |_    __ _ _ __ ___
+#    \ \/  \/ / | '_ \ / _` | __|  / _` | '__/ _ \
+#     \  /\  /  | | | | (_| | |_  | (_| | | |  __/
+#      \/  \/   |_| |_|\__,_|\__|  \__,_|_|  \___|
+
+#                           _       _             _ _ _
+#                           | |     (_)           | | | |
+#    _   _  ___  _   _    __| | ___  _ _ __   __ _| | | |
+#   | | | |/ _ \| | | |  / _` |/ _ \| | '_ \ / _` | | | |
+#   | |_| | (_) | |_| | | (_| | (_) | | | | | (_| |_|_|_|
+#    \__, |\___/ \__,_|  \__,_|\___/|_|_| |_|\__, (_|_|_)
+#     __/ |                                   __/ |
+#    |___/                                   |___/
+
+
+
+
+
+
+# Don't touch the jyma-version
+jyma-version: 1.0.0-alpha
+
+
+maven:
+  read-pom: true
+
+ci:
+  jenkins:
+    createJobIfNotExists:
+      job-name: TowerWarZ
+      location: "https://ci-xiurobert.rhcloud.com"
+      type: freestyle_project
+    IfJobExists:
+      script: mvn clean install
+      after_success:
+        archive-artifacts: "target/*.jar"
+      use_java_version: jdk1.8.0*
+
+  travis:
+    use-file: "./travis.yml"
+
+artifacts-deployment:
+  servers:
+    nexus:
+      location: "central.lightningsf.net/nexus"
+      username: "xiurobert"
+      password:
+        secret: af2mcppcm1spofmE34pancagf
+      artifact:
+        project-name: TowerWarZ
+        autoconfig:
+          use_maven: true
+    phexus:
+      location: "central.lightningsf.net/phexus"
+      API_LOCATION: "central.lightningsf.net/phexus/api.php"
+      username: lightningsf
+      password:
+        secret: socnp2nfpnpf2pPNpdowvnnpnsPNAPCAN
+      artifact:
+        project-name: $JYMA[artifacts-deployment/servers/nexus/artifact/project-name]
+        autoconfig:
+          use_maven: true
+
+JavaPackager:
+  servers:
+    jpmain-lsf:
+      location: "jp.lightningsf.net/"
+      API_LOCATION: "jp.lightningsf.net/fw/jyma/API.l"
+      username: "xiurobert"
+      password:
+        secret: apfo2noanpvn20ngpanvpnFnqpngfpNPNWEp
+      project-name: TowerWarZ
+      project-config:
+        github: yes
+        lightningsfproject: yes
+
+      groupId: ${MAVEN_POM_GROUPID}
+      artifactId: ${MAVEN_POM_ARTIFACTID}
+      version: ${MAVEN_POM_VERSION}
+      description:
+        use-file: "./README.md"
