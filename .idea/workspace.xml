@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2b15f14-820c-4f7b-b18d-5b6b32a8b385" name="Default" comment="Create game initialization, add functions">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/FireGunner/FireGunnerLvl1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/GameInstance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/exception/UnknownObjectException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/GatlingGun/GatlingGunLv1.java" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/GatlingGun/GatlingGunLv1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/MainClass.java" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/MainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/data/WaveNumber.java" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/data/WaveNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/GameInstance.java" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/GameInstance.java" />
     </list>
     <ignored path="TowerWarZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,30 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameInstance.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameInstance.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/GameInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.4043916">
+              <caret line="13" column="96" selection-start-line="13" selection-start-column="96" selection-end-line="13" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12442818">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -118,11 +102,11 @@
         <option value="$PROJECT_DIR$/WhatIs.jyma.yml.md" />
         <option value="$PROJECT_DIR$/.jyma.yml" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/exception/UnknownObjectException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/GameInstance.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/data/WaveNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/GatlingGun/GatlingGunLv1.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/FireGunner/FireGunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/GameInstance.java" />
       </list>
     </option>
   </component>
@@ -929,7 +913,7 @@
       <workItem from="1438345200499" duration="123000" />
       <workItem from="1439471844985" duration="1932000" />
       <workItem from="1439601364777" duration="55000" />
-      <workItem from="1455452247532" duration="1024000" />
+      <workItem from="1455452247532" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="Created GatlingGun Level 3">
       <created>1425024764876</created>
@@ -1013,10 +997,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22748000" />
+    <option name="totallyTimeSpent" value="22873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2586" height="1386" extended-state="7" />
+    <frame x="-13" y="-13" width="2586" height="1386" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1372,22 +1356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/GameInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/data/WaveNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1452,6 +1420,22 @@
         <state vertical-scroll-proportion="0.12442818">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/GameInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4043916">
+          <caret line="13" column="96" selection-start-line="13" selection-start-column="96" selection-end-line="13" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,6 +8,11 @@ import java.util.Arrays;
  * TowerWarZ
  * Created by xiurobert on 2/14/2016.
  */
+
+
+/**
+ * This file is the init file and contains functions to set and retrieve certain game properties
+ */
 public class GameInstance {
     private int WaveNumber;
     private String difficulty;
@@ -27,6 +32,8 @@ public class GameInstance {
             "Hard",
             "Sparta"
     };
+
+
 
     public String setDifficulty(String diff) throws UnknownObjectException {
         if (Arrays.asList(difficulties).contains(diff)) { // Check if the difficulty is valid
