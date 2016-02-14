@@ -1,9 +1,7 @@
-package net.towerwarz.Mobs.ModernPack;
+package net.towerwarz.mobs.ModernPack;
 
 
 // Some imports
-import net.towerwarz.RandomInteger;
-
 
 
 public class Soldier{

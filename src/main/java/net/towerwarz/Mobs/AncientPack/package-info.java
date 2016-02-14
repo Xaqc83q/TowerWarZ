@@ -1,4 +1,4 @@
-package net.towerwarz.Mobs.AncientPack;
+package net.towerwarz.mobs.AncientPack;
 /**
- * This contains all the Ancient Mobs
+ * This contains all the Ancient mobs
  */

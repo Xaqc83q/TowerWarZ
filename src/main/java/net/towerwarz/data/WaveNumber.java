@@ -5,10 +5,13 @@ package net.towerwarz.data;
  */
 public class WaveNumber {
 
+    private int currWave;
 
     public void StartWave() {
 
     }
+
+
 
 
 }

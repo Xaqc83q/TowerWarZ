@@ -12,6 +12,8 @@ public class MainClass {
         out.println("Starting TowerWarZ...");
         out.println("Loading dependencies");
 
+        GameInstance game = new GameInstance();
+
     }
 
 }
