@@ -1,36 +1,48 @@
-#!/usr/bin/env bash
-projectname=TowerWarZ
-lang=java
+#! /bin/bash
+# automatic setup script for TowerWarZ
 
-echo Starting setup of project $projectname
-if [ $lang = "java" ]; then
-  echo "If you would like to generate Javadocs, append --jd=true to the end of ths script."
-  echo "E.g. ./setup.sh --jd=true"
+# Do not touch these
+WRK_SETUPSCRIPT=`pwd`/setup.sh
+TWZ_VER=Dev
+
+
+
+# If user wants help
+if [ $1 = "--help" ]
+  then
+    echo "Usage: $WRK_SETUPSCRIPT [ --custom-mvn <maven_location> ]"
+    echo "Items within [] are optional"
+    exit 0;
+fi
+# If user does not specify a maven location
+if [ $1 = "--custom-mvn" ] && [ $2 = "" ]
+  then
+    echo "<maven_location> is not specified! Exiting..."
+    exit 0;
 fi
 
-if [ "$1" = "--jd=true" ]; then
-  gen-jd=true
-  echo Will generate javadocs
-fi
-
-if [ -f pom.xml ]; then
-  echo "Detected the use of Maven, now checking if maven is installed..."
-  if command -v mvn>/dev/null 2>&1; then
-    echo "Maven is installed! Now setting up repo..."
-    if [ -d "target" ]; then
-      echo Removing maven generated things...
-      mvn clean
-    fi
-
-    echo "Now downloading dependencies, hold on tight!"
-    if [ "$gen-jd" = "true" ]; then
-      mvn install -DskipTest=true -Dmaven.javadoc.skip=false -B -V
+    
+# If user uses default maven location in $PATH
+if [ $1 = "" ]
+  then
+    command -v mvn >/dev/null 2>&1 || { 
+      echo >&2 "Maven is not found on the system. Setup cannot be completed";
+      exit 1;
+    }
+    echo "[Setup] Building TowerWarZ v$TWZ_VER"
+    if mvn clean install ; then
+      echo "[Setup] Succesfully built TWZ v$TWZ_VER"
+      echo "[Setup] Will now exit"
+      exit 0;
     else
-      mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-    fi
-
-  else
-    echo "Unfortunately, Maven is not installed. Cannot setup. Aborting..."
-    exit 1
-  fi
+      echo "[Setup] Failed to build TWZ v$TWZ_VER"
+      echo "[Setup] Please check the maven log for more details."
+      echo "[Setup] If there is indeed a bug in the software and not the code, please file an issue at "
+      echo "https://github.com/xiurobert/TowerWarZ/issues with your maven log trace."
+      echo "Exiting..."
+      exit 1;
+    
 fi
+
+
+
