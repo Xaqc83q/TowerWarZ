@@ -1,18 +1,29 @@
 package net.towerwarz.mobs;
 
 
-// Some imports
+import net.towerwarz.MobStatus;
+import net.towerwarz.Weapon;
+import net.towerwarz.towers.ModernPack.GatlingGun.GatlingGun;
 
+public class Soldier extends Fighter {
+    private Weapon weapon;
 
-public class Soldier {
-    public String def = "'Your Average Joe' combatant";
-    public int MobDataId = 1;
-    //public int MobHp=(mathPow(waveNumber*100,2.5))/(mathPow(waveNumber,1.25)); (very broekn)
-    //public int MobHp=(mathPow(waveNumber,2)*100)/(mathPow(waveNumber,1.5)) //Have you realised this is BAD JAVA??? USE AN IDE!
-    // Hey this would be great (I know, if done better -.-)
+    public Soldier() {
+        super("Your Average Joe' combatant", 1, 10, 16);
+        setWeapon(new GatlingGun());
+    }
 
-    // Dude please put the wave number stuffz.... I Really wanna implement MObHp now we have an RandInt class
+    public Weapon getWeapon() {
+        return weapon;
+    }
 
-    public int MoveSpeed = 16 ; // Movespeed class
-    public int causeHarmToBase = 1; // Use spaces pls
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
+
+    @Override
+    public MobStatus attack(Enemy other) {
+        // Attack enemy
+        return null;
+    }
 }

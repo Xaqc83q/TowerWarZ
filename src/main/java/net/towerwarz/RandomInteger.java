@@ -7,7 +7,6 @@ package net.towerwarz;
 
 /*
  Taken from http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java
-
  */
 
 import java.util.Random;
