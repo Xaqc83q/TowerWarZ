@@ -14,4 +14,3 @@ game-version: InDev
 twz-ml:
   enable-ml: true # Enable the modloader?
   ml-mods-dir: "%APPDATA%\TowerWarZ\mods" # Mods directory. Change if you're on windows
-  
