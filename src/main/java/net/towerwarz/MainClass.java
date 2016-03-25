@@ -13,7 +13,5 @@ public class MainClass {
         out.println("Loading dependencies");
 
         GameInstance game = new GameInstance();
-
     }
-
 }
