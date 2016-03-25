@@ -7,7 +7,7 @@ package net.towerwarz;
 public abstract class Weapon {
     private WeaponType type;
     private String def;
-    private int level;
+
     private int damage;
 
     private double splashRadius;
@@ -22,7 +22,6 @@ public abstract class Weapon {
     public Weapon(WeaponType type, String def, boolean canDetectCamo) {
         this.type = type;
         this.def = def;
-        this.level = 1;
         this.canDetectCamo = false;
     }
 
@@ -55,13 +54,6 @@ public abstract class Weapon {
         this.def = def;
     }
 
-    public int getLevel() {
-        return level;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
-    }
 
     public int getDamage() {
         return damage;
@@ -85,14 +77,13 @@ public abstract class Weapon {
      * Set a radius for splash damage to occur
      *
      *
-     * @param splashRadius How much splash damage will be dealt (factorised)
+     * @param splashRadius How much splash damage will be dealt (factorised) (max: 4)
      */
 
     public void setSplashRadius(double splashRadius) {
         if (splashRadius < 4.00 && splashRadius > 0.00) {
             this.splashRadius = splashRadius;
         }
-
     }
 
     public double getSpreadRadius() {
@@ -111,17 +102,35 @@ public abstract class Weapon {
         }
     }
 
+    /**
+     * Gets the reload rate
+     * @return Rate of reloading
+     *
+     */
     public double getReloadRate() {
         return reloadRate;
     }
 
+    /**
+     * Sets the reload rate
+     * @param reloadRate a double between 0.01 and 30.00
+     */
+
     public void setReloadRate(double reloadRate) {
-        this.reloadRate = reloadRate;
+        if (reloadRate > 0.01 && reloadRate < 30.00) {
+            this.reloadRate = reloadRate;
+        }
+
     }
 
     public boolean isCanDetectCamo() {
         return canDetectCamo;
     }
+
+    /**
+     * Allow camo detection
+     * @param canDetectCamo true/false
+     */
 
     public void setCanDetectCamo(boolean canDetectCamo) {
         this.canDetectCamo = canDetectCamo;

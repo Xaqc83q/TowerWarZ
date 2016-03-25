@@ -1,6 +1,7 @@
 package net.towerwarz;
 
 import net.towerwarz.exception.UnknownObjectException;
+import net.towerwarz.Maps;
 
 import java.util.Arrays;
 
