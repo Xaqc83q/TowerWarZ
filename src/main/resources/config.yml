@@ -7,3 +7,11 @@ config-version: 1.0
 # The global server of TowerWarZ.
 universal-multiplayer-server: "multiplay.towerwarz.net"
 
+# The version of the game
+game-version: InDev
+
+# ModLoader
+twz-ml:
+  enable-ml: true # Enable the modloader?
+  ml-mods-dir: "%APPDATA%\TowerWarZ\mods" # Mods directory. Change if you're on windows
+  
