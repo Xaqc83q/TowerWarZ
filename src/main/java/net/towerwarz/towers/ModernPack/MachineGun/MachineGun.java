@@ -8,7 +8,7 @@ import net.towerwarz.enums.WeaponType;
  */
 public class MachineGun extends Weapon {
     public MachineGun() {
-        super(WeaponType.MODERN, "insert good description", false);
+        super(WeaponType.MODERN, "Non stop splitting", false);
 
         setDamage(23);
         setSplashRadius(0);

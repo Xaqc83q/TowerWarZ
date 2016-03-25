@@ -64,7 +64,7 @@ public abstract class Weapon {
         this.level = level;
     }
 
-    public double getDamage() {
+    public int getDamage() {
         return damage;
     }
 
