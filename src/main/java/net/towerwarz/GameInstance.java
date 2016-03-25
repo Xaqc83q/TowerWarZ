@@ -14,29 +14,22 @@ import java.util.Arrays;
  * This file is the init file and contains functions to set and retrieve certain game properties
  */
 public class GameInstance {
-    private int WaveNumber;
-    private String difficulty;
-    private String MapName;
+    private int waveNumber;
+    private Difficulty difficulty;
+    private Maps mapName;
 
+    public GameInstance() {
 
-    private String[] maps = {
-            "GrassLands",
-            "HellWorld",
-            "IceLand",
-            "DarkForest"
+    }
 
-    };
-    private String[] difficulties = {
-            "Easy",
-            "Normal",
-            "Hard",
-            "Sparta"
-    };
+    public GameInstance(Difficulty diff, Maps map) {
+        difficulty = diff;
+        mapName = map;
+        waveNumber = 0; // Subject to change
+    }
 
-
-
-    public String setDifficulty(String diff) throws UnknownObjectException {
-        if (Arrays.asList(difficulties).contains(diff)) { // Check if the difficulty is valid
+    public Difficulty setDifficulty(Difficulty diff) throws UnknownObjectException {
+        if (diff != null) { // Check if the difficulty is valid
             difficulty = diff; // Set difficulty
         } else {
             throw new UnknownObjectException("Invalid difficulty");
@@ -44,24 +37,24 @@ public class GameInstance {
         return difficulty;
     }
 
-    public String getDifficulty() {
+    public Difficulty getDifficulty() {
         return difficulty;
     }
 
-    public String setMap(String map) throws UnknownObjectException {
-        if (Arrays.asList(maps).contains(map)) {
-            MapName = map;
+    public Maps setMap(Maps map) throws UnknownObjectException {
+        if (map != null) {
+            mapName = map;
         } else {
             throw new UnknownObjectException("Invalid map");
         }
-        return MapName;
+        return mapName;
     }
 
-    public String getMapName() {
-        return MapName;
+    public Maps getMapName() {
+        return mapName;
     }
 
     public int getWaveNumber() {
-        return WaveNumber;
+        return waveNumber;
     }
 }

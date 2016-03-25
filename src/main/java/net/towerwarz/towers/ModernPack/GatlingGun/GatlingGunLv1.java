@@ -23,7 +23,7 @@ public class GatlingGunLv1 {
     int max = 5;
     int min = 1;
 
-    Random rand  = new Random();
+    Random rand = new Random();
     int randomnum = rand.nextInt((max - min) + 1) + min;  // Note that we are deprecating this soon
 
     public int GatlingGunLv1Dmg = randomnum;
@@ -33,8 +33,6 @@ public class GatlingGunLv1 {
 
     public double GatlingGunLv1ReloadRate = 0.05;
     public boolean canDetectCamo = false;
-
-
 
     public int GatlingGunLv1SpreadRadius = 18;
 }
