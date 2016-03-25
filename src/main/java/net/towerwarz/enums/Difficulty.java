@@ -1,4 +1,4 @@
-package net.towerwarz;
+package net.towerwarz.enums;
 
 /**
  * Created by Way Yan on 3/25/2016.

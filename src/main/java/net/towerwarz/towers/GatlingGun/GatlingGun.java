@@ -5,8 +5,8 @@ package net.towerwarz.towers.GatlingGun;
  * Created with IntelliJ IDEA 14.0.3
  */
 
-import net.towerwarz.WeaponType;
-import net.towerwarz.Weapon;
+import net.towerwarz.enums.WeaponType;
+import net.towerwarz.base.Weapon;
 
 public class GatlingGun extends Weapon {
     public GatlingGun() {
@@ -14,7 +14,7 @@ public class GatlingGun extends Weapon {
 
         setDamage(1);
         setSplashRadius(0.01);
-        setSplashRadius(2);
+        setSpreadRadius(2);
         setReloadRate(0.02);
     }
 

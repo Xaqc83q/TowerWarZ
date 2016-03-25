@@ -1,6 +1,6 @@
-package net.towerwarz.mobs;
+package net.towerwarz.base;
 
-import net.towerwarz.MobStatus;
+import net.towerwarz.enums.Status;
 
 /**
  * Created by Way Yan on 3/25/2016.
@@ -54,5 +54,8 @@ public abstract class Fighter {
         this.moveSpeed = moveSpeed;
     }
 
-    public abstract MobStatus attack(Enemy other);
+    public abstract void attack(Enemy other);
+    public abstract void dodge(Enemy other);
+    public abstract void escape(Enemy other);
+    public abstract void die();
 }

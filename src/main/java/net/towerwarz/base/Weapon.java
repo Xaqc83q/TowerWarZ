@@ -1,5 +1,9 @@
-package net.towerwarz;
+package net.towerwarz.base;
 
+<<<<<<< HEAD:src/main/java/net/towerwarz/base/Weapon.java
+import net.towerwarz.enums.WeaponType;
+=======
+>>>>>>> master:src/main/java/net/towerwarz/Weapon.java
 
 /**
  * Created by Way Yan on 3/25/2016.
@@ -54,8 +58,18 @@ public abstract class Weapon {
         this.def = def;
     }
 
+<<<<<<< HEAD:src/main/java/net/towerwarz/base/Weapon.java
+    public double getLevel() {
+        return level;
+    }
 
-    public int getDamage() {
+    public void setLevel(int level) {
+        this.level = level;
+    }
+=======
+>>>>>>> master:src/main/java/net/towerwarz/Weapon.java
+
+    public double getDamage() {
         return damage;
     }
 
@@ -90,6 +104,10 @@ public abstract class Weapon {
         return spreadRadius;
     }
 
+<<<<<<< HEAD:src/main/java/net/towerwarz/base/Weapon.java
+    public void setSpreadRadius(double spreadRadius) {
+        this.spreadRadius = spreadRadius;
+=======
     /**
      * Sets a radius for spreading of projectiles/bullets
      *
@@ -100,6 +118,7 @@ public abstract class Weapon {
         if (spreadRadius < 1.00 && spreadRadius > 0.00) {
             this.spreadRadius = spreadRadius;
         }
+>>>>>>> master:src/main/java/net/towerwarz/Weapon.java
     }
 
     /**

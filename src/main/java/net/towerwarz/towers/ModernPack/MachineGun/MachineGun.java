@@ -1,28 +1,24 @@
-package net.towerwarz.towers.FireGunner;
+package net.towerwarz.towers.ModernPack.MachineGun;
 
 import net.towerwarz.base.Weapon;
 import net.towerwarz.enums.WeaponType;
 
 /**
- * TowerWarZ
- * Created by xiurobert on 2/14/2016.
+ * Created by RosoAnna on 20/06/2015.
  */
-
-public class FireGunner extends Weapon {
-    public FireGunner() {
+public class MachineGun extends Weapon {
+    public MachineGun() {
         //TODO change fields accordingly
         super(WeaponType.MODERN, "What do you expect? A nuke straight off the bat?", false);
 
-        setDamage(34);
-        setSplashRadius(0.7);
-        setSpreadRadius(0.46);
-        setReloadRate(0.2);
+        setDamage(23);
+        setSplashRadius(0);
+        setSpreadRadius(0.8);
+        setReloadRate(14);
     }
 
     @Override
     public void levelUp() {
         // Changing the necessary fields
     }
-
-
 }
