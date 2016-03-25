@@ -1,17 +1,29 @@
 package net.towerwarz.mobs;
 
 
-// Some imports
+import net.towerwarz.MobStatus;
+import net.towerwarz.Weapon;
+import net.towerwarz.towers.ModernPack.GatlingGun.GatlingGun;
 
-
-public class Soldier {
-    public String def = "'Your Average Joe' combatant";
-    public int MobDataId = 1;
-    public int MobHp = 10;
-    public int MoveSpeed = 16 ; // Movespeed class
-    public int damage = 1;
+public class Soldier extends Fighter {
+    private Weapon weapon;
 
     public Soldier() {
+        super("Your Average Joe' combatant", 1, 10, 16);
+        setWeapon(new GatlingGun());
+    }
 
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
+
+    @Override
+    public MobStatus attack(Enemy other) {
+        // Attack enemy
+        return null;
     }
 }
