@@ -8,8 +8,7 @@ import net.towerwarz.enums.WeaponType;
  */
 public class MachineGun extends Weapon {
     public MachineGun() {
-        //TODO change fields accordingly
-        super(WeaponType.MODERN, "What do you expect? A nuke straight off the bat?", false);
+        super(WeaponType.MODERN, "insert good description", false);
 
         setDamage(23);
         setSplashRadius(0);

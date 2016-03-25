@@ -1,15 +1,11 @@
-package net.towerwarz.mobs;
+package net.towerwarz.mobs.Fighters;
 
 
 
 import net.towerwarz.base.Enemy;
 import net.towerwarz.base.Fighter;
 import net.towerwarz.base.Weapon;
-import net.towerwarz.towers.GatlingGun.GatlingGun;
-
-import net.towerwarz.MobStatus;
-import net.towerwarz.Weapon;
-import net.towerwarz.towers.GatlingGun.GatlingGun;
+import net.towerwarz.towers.ModernPack.GatlingGun.GatlingGun;
 
 
 public class Soldier extends Fighter {

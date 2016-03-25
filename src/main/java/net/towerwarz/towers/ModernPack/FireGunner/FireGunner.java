@@ -1,4 +1,4 @@
-package net.towerwarz.towers.FireGunner;
+package net.towerwarz.towers.ModernPack.FireGunner;
 
 import net.towerwarz.base.Weapon;
 import net.towerwarz.enums.WeaponType;
@@ -10,8 +10,7 @@ import net.towerwarz.enums.WeaponType;
 
 public class FireGunner extends Weapon {
     public FireGunner() {
-        //TODO change fields accordingly
-        super(WeaponType.MODERN, "What do you expect? A nuke straight off the bat?", false);
+        super(WeaponType.MODERN, "Man's greatest invention just got a whole lot more dangerous.", false);
 
         setDamage(34);
         setSplashRadius(0.7);
