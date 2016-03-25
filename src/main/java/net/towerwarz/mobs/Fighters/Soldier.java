@@ -1,23 +1,18 @@
-package net.towerwarz.mobs;
+package net.towerwarz.mobs.Fighters;
 
 
 
 import net.towerwarz.base.Enemy;
 import net.towerwarz.base.Fighter;
 import net.towerwarz.base.Weapon;
-import net.towerwarz.towers.GatlingGun.GatlingGun;
-
-import net.towerwarz.MobStatus;
-import net.towerwarz.Weapon;
-import net.towerwarz.towers.GatlingGun.GatlingGun;
+import net.towerwarz.towers.ModernPack.GatlingGun.GatlingGun;
 
 
 public class Soldier extends Fighter {
     private Weapon weapon;
 
     public Soldier() {
-        super("Your Average Joe' combatant", 1, 10, 16);
-        setWeapon(new GatlingGun());
+        super("Your Average Joe' combatant", 1, 10, 16, new GatlingGun());
     }
 
     public Weapon getWeapon() {
@@ -26,11 +21,6 @@ public class Soldier extends Fighter {
 
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
-    }
-
-    @Override
-    public void attack(Enemy other) {
-        // Attack enemy
     }
 
     @Override

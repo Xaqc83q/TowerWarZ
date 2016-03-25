@@ -10,16 +10,18 @@ public abstract class Fighter {
     private int mobDataId;
     private int hp;
     private int moveSpeed;
+    private Weapon weapon;
 
     public Fighter() {
 
     }
 
-    public Fighter(String def, int mobDataId, int hp, int moveSpeed) {
+    public Fighter(String def, int mobDataId, int hp, int moveSpeed, Weapon weapon) {
         this.def = def;
         this.mobDataId = mobDataId;
         this.hp = hp;
         this.moveSpeed = moveSpeed;
+        this.weapon = weapon;
     }
 
     public String getDef() {
@@ -42,8 +44,8 @@ public abstract class Fighter {
         return hp;
     }
 
-    public void setHp(int hp) {
-        this.hp = hp;
+    public void decreaseHp(int amount) {
+        this.hp -= amount;
     }
 
     public int getMoveSpeed() {
@@ -54,7 +56,22 @@ public abstract class Fighter {
         this.moveSpeed = moveSpeed;
     }
 
-    public abstract void attack(Enemy other);
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
+
+    public void damaged(Enemy other) {
+        decreaseHp(other.getWeapon().getDamage());
+    }
+
+    public void attack(Enemy other) {
+        other.decreaseHp(weapon.getDamage());
+    }
+
     public abstract void dodge(Enemy other);
     public abstract void escape(Enemy other);
     public abstract void die();
