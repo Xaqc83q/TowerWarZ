@@ -1,8 +1,9 @@
 package net.towerwarz.mobs;
 
 
-import net.towerwarz.MobStatus;
-import net.towerwarz.Weapon;
+import net.towerwarz.base.Enemy;
+import net.towerwarz.base.Fighter;
+import net.towerwarz.base.Weapon;
 import net.towerwarz.towers.ModernPack.GatlingGun.GatlingGun;
 
 public class Soldier extends Fighter {
@@ -22,8 +23,22 @@ public class Soldier extends Fighter {
     }
 
     @Override
-    public MobStatus attack(Enemy other) {
+    public void attack(Enemy other) {
         // Attack enemy
-        return null;
+    }
+
+    @Override
+    public void dodge(Enemy other) {
+        // Dodge enemy
+    }
+
+    @Override
+    public void escape(Enemy other) {
+        // Escape enemy
+    }
+
+    @Override
+    public void die() {
+        // What happens when fighter dies (Drops stuff, explodes etc.)
     }
 }

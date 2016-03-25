@@ -1,7 +1,6 @@
-package net.towerwarz;
+package net.towerwarz.base;
 
-import net.towerwarz.RandomInteger;
-import net.towerwarz.WeaponType;
+import net.towerwarz.enums.WeaponType;
 
 /**
  * Created by Way Yan on 3/25/2016.
@@ -13,7 +12,7 @@ public abstract class Weapon {
     private int damage;
 
     private double splashRadius;
-    private int spreadRadius;
+    private double spreadRadius;
     private double reloadRate;
     private boolean canDetectCamo;
 
@@ -44,7 +43,7 @@ public abstract class Weapon {
         this.def = def;
     }
 
-    public int getLevel() {
+    public double getLevel() {
         return level;
     }
 
@@ -52,7 +51,7 @@ public abstract class Weapon {
         this.level = level;
     }
 
-    public int getDamage() {
+    public double getDamage() {
         return damage;
     }
 
@@ -68,11 +67,11 @@ public abstract class Weapon {
         this.splashRadius = splashRadius;
     }
 
-    public int getSpreadRadius() {
+    public double getSpreadRadius() {
         return spreadRadius;
     }
 
-    public void setSpreadRadius(int spreadRadius) {
+    public void setSpreadRadius(double spreadRadius) {
         this.spreadRadius = spreadRadius;
     }
 

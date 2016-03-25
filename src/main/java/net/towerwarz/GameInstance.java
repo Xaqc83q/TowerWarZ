@@ -1,8 +1,8 @@
 package net.towerwarz;
 
+import net.towerwarz.enums.Difficulty;
+import net.towerwarz.enums.Maps;
 import net.towerwarz.exception.UnknownObjectException;
-
-import java.util.Arrays;
 
 /**
  * TowerWarZ

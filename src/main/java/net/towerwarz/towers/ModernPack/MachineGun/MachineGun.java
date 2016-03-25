@@ -1,25 +1,24 @@
 package net.towerwarz.towers.ModernPack.MachineGun;
 
+import net.towerwarz.base.Weapon;
+import net.towerwarz.enums.WeaponType;
+
 /**
  * Created by RosoAnna on 20/06/2015.
  */
-public class MachineGun {
+public class MachineGun extends Weapon {
+    public MachineGun() {
+        //TODO change fields accordingly
+        super(WeaponType.MODERN, "What do you expect? A nuke straight off the bat?", false);
 
-    public void Lv1() {
-
+        setDamage(23);
+        setSplashRadius(0);
+        setSpreadRadius(0.8);
+        setReloadRate(14);
     }
 
-    public void Lv2() {
-
-
+    @Override
+    public void levelUp() {
+        // Changing the necessary fields
     }
-
-    public void Lv3() {
-
-    }
-
-    public void Lv4() {
-
-    }
-
 }
