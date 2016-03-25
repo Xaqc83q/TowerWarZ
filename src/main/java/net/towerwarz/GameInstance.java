@@ -33,7 +33,7 @@ public class GameInstance {
             "Sparta"
     };
 
-    public GameInstance(String difficulty, mapName){
+    public GameInstance(String difficulty, int mapName){
         //starting game
         this.difficulty = difficulty;
         this.MapName = mapName;
