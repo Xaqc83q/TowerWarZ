@@ -2,7 +2,8 @@
 Thanks to:
  
 @xiurobert (Project lead)
-
 @BehChuenYang
+@greysome
+@tch1011
 
-And many other contributors (yes, 2 is a lot to me)
+

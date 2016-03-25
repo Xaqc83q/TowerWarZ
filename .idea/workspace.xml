@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2b15f14-820c-4f7b-b18d-5b6b32a8b385" name="Default" comment="Created config">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/GatlingGun/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/MachineGun/MachineGun.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/MachineGun/WhyHere.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Resources(Redundant).txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/FireGunner/FireGunner.java" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/FireGunner/FireGunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/GatlingGun/GatlingGun.java" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/GatlingGun/GatlingGun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/Weapon.java" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/Weapon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/towerwarz/mobs/Soldier.java" afterPath="$PROJECT_DIR$/src/main/java/net/towerwarz/mobs/Soldier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CREDITS.md" afterPath="$PROJECT_DIR$/CREDITS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="TowerWarZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,8 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/GatlingGun/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/GatlingGun/GatlingGunCoreData/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/GatlingGun/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/towers/ModernPack/MachineGun/WhyHere.md" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/GunsListEnumRedundant.java" />
@@ -136,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/Mobs/Launch.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/Mobs/Launch.form" />
-        <option value="$PROJECT_DIR$/CONTRIBUTING.md" />
         <option value="$PROJECT_DIR$/addon-gpl.md" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/Mobs/ModernPack/Soldier.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -172,6 +161,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/config.js" />
         <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/net/towerwarz/mobs/Soldier.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/CREDITS.md" />
+        <option value="$PROJECT_DIR$/CONTRIBUTING.md" />
       </list>
     </option>
   </component>
@@ -1150,7 +1142,7 @@
       <workItem from="1439471844985" duration="1932000" />
       <workItem from="1439601364777" duration="55000" />
       <workItem from="1455452247532" duration="1149000" />
-      <workItem from="1458902498733" duration="1486000" />
+      <workItem from="1458902498733" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="Created GatlingGun Level 3">
       <created>1425024764876</created>
@@ -1247,10 +1239,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24359000" />
+    <option name="totallyTimeSpent" value="24654000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2586" height="1386" extended-state="7" />
+    <frame x="-13" y="-13" width="2586" height="1386" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1319,16 +1311,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/towers/FireGunner/FireGunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/mobs/Soldier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1436,20 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CREDITS.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1654,6 +1622,39 @@
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CREDITS.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/mobs/Soldier.java">
