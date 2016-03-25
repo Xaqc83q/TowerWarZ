@@ -33,6 +33,17 @@ public class GameInstance {
             "Sparta"
     };
 
+    public GameInstance(String difficulty, mapName){
+        //starting game
+        this.difficulty = difficulty;
+        this.MapName = mapName;
+        this.WaveNumber = 1;
+        
+        //load window
+        //draw
+        
+        
+    }
 
 
     public String setDifficulty(String diff) throws UnknownObjectException {
