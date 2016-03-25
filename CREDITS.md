@@ -1,8 +1,12 @@
 # Credits
 Thanks to:
  
-@xiurobert (Project lead)
+[@xiurobert (Project lead)](https://github.com/xiurobert)
 
-@BehChuenYang
+[@BehChuenYang](https://github.com/BehChuenYang)
 
-And many other contributors (yes, 2 is a lot to me)
+[@greysome](https://github.com/greysome)
+
+[@tch1001](https://github.com/tch1001)
+
+

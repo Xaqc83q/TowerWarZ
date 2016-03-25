@@ -1,4 +1,4 @@
-package net.towerwarz.towers.ModernPack.FireGunner;
+package net.towerwarz.towers.FireGunner;
 
 import net.towerwarz.base.Weapon;
 import net.towerwarz.enums.WeaponType;
@@ -23,4 +23,6 @@ public class FireGunner extends Weapon {
     public void levelUp() {
         // Changing the necessary fields
     }
+
+
 }
