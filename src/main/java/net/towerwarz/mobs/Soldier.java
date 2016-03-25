@@ -3,7 +3,7 @@ package net.towerwarz.mobs;
 
 import net.towerwarz.MobStatus;
 import net.towerwarz.Weapon;
-import net.towerwarz.towers.ModernPack.GatlingGun.GatlingGun;
+import net.towerwarz.towers.GatlingGun.GatlingGun;
 
 public class Soldier extends Fighter {
     private Weapon weapon;

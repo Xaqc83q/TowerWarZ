@@ -1,0 +1,9 @@
+# TowerWarZ Config Default
+# Created 25/3/16 7:07 SST
+
+# Config version. Touching will result in your config being overriden by defaults
+config-version: 1.0
+
+# The global server of TowerWarZ.
+universal-multiplayer-server: "multiplay.towerwarz.net"
+

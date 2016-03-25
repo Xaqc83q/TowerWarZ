@@ -1,7 +1,5 @@
 package net.towerwarz;
 
-import net.towerwarz.RandomInteger;
-import net.towerwarz.WeaponType;
 
 /**
  * Created by Way Yan on 3/25/2016.
@@ -27,6 +25,7 @@ public abstract class Weapon {
         this.level = 1;
         this.canDetectCamo = false;
     }
+
 
     public WeaponType getType() {
         return type;
