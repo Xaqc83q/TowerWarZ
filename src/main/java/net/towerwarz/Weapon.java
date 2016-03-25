@@ -89,7 +89,10 @@ public abstract class Weapon {
      */
 
     public void setSplashRadius(double splashRadius) {
-        this.splashRadius = splashRadius;
+        if (splashRadius < 4.00 && splashRadius > 0.00) {
+            this.splashRadius = splashRadius;
+        }
+
     }
 
     public double getSpreadRadius() {

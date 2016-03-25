@@ -51,8 +51,8 @@
       <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/Weapon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="406">
+              <caret line="92" column="45" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -1150,7 +1150,7 @@
       <workItem from="1439471844985" duration="1932000" />
       <workItem from="1439601364777" duration="55000" />
       <workItem from="1455452247532" duration="1149000" />
-      <workItem from="1458902498733" duration="2454000" />
+      <workItem from="1458902498733" duration="2555000" />
     </task>
     <task id="LOCAL-00001" summary="Created GatlingGun Level 3">
       <created>1425024764876</created>
@@ -1247,7 +1247,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25327000" />
+    <option name="totallyTimeSpent" value="25428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2586" height="1386" extended-state="6" />
@@ -1672,8 +1672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/towerwarz/Weapon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        <state relative-caret-position="406">
+          <caret line="92" column="45" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
           <folding />
         </state>
       </provider>
