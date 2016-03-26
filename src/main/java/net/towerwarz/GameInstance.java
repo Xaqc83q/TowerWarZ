@@ -18,13 +18,9 @@ public class GameInstance {
     private Difficulty difficulty;
     private Maps mapName;
 
+    public GameInstance() {
 
-    /**
-     * Begins a new Instance of the game
-     *
-     * @param diff Difficulty of game. See net.towerwarz.enums.Difficulty
-     * @param map Map name. See net.towerwarz.enums.Maps
-     */
+    }
 
     public GameInstance(Difficulty diff, Maps map) {
         difficulty = diff;
@@ -33,7 +29,6 @@ public class GameInstance {
     }
 
     public Difficulty setDifficulty(Difficulty diff) throws UnknownObjectException {
-
         if (diff != null) { // Check if the difficulty is valid
             difficulty = diff; // Set difficulty
         } else {

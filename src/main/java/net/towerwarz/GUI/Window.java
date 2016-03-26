@@ -1,5 +1,7 @@
-package net.towerwarz.gamegui;
+package net.towerwarz.GUI;
 
+
+import javax.swing.*;
 
 @SuppressWarnings("unused")
 
