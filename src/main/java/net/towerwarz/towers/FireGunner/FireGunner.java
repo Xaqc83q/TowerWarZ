@@ -1,4 +1,4 @@
-package net.towerwarz.towers.ModernPack.FireGunner;
+package net.towerwarz.towers.FireGunner;
 
 import net.towerwarz.base.Weapon;
 import net.towerwarz.enums.WeaponType;
