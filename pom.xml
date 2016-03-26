@@ -18,23 +18,15 @@
             <developers>
 
                 <developer>
-                    <name>xiurobert</name>
+                    <name>Robert Xiu</name>
                     <email>xiurobert@gmail.com</email>
                     <organization>Lightning-SF</organization>
                     <organizationUrl>http://github.com/Lightning-SF</organizationUrl>
-                    <id>xiur-obert</id>
                 </developer>
 
                 <developer>
-                    <name>BehChuenYang</name>
-                    <email>none<!-- Private guys, sorry --></email>
-                </developer>
-
-                <developer>
-                    <name>greysome</name>
-                    <email>greysome@lightningsf.tk</email>
-                    <id>grey-some</id>
-
+                    <name>Beh Chuen Yang</name>
+                    <email><!-- Private guys, sorry --></email>
                 </developer>
 
             </developers>
@@ -50,8 +42,6 @@
                     <name>Lightning-SF repo</name>
                     <url>http://xiurobert.byethost9.com/maven3/</url>
                 </repository>
-
-
             </repositories>
 
 
@@ -112,16 +102,6 @@
                     <artifactId>coveralls-maven-plugin</artifactId>
                     <version>3.1.0</version>
                 </dependency>
-
-                <dependency>
-                    <groupId>org.apache.commons</groupId>
-                    <artifactId>commons-lang3</artifactId>
-                    <version>3.4</version>
-                </dependency>
-
-
-
-
             </dependencies>
 
             <ciManagement>

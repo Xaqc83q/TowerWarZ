@@ -1,4 +1,4 @@
-package net.towerwarz.towers.MachineGun;
+package net.towerwarz.towers.ModernPack.MachineGun;
 
 import net.towerwarz.base.Weapon;
 import net.towerwarz.enums.WeaponType;
