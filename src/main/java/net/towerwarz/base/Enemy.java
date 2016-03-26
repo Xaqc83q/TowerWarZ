@@ -3,7 +3,7 @@ package net.towerwarz.base;
 /**
  * Created by Way Yan on 3/25/2016.
  */
-public abstract class Enemy {
+public abstract class Enemy implements EnemyActions {
     private String def;
     private int mobDataId;
     private int hp;
@@ -66,15 +66,13 @@ public abstract class Enemy {
         this.weapon = weapon;
     }
 
+    @Override
     public void damaged(Fighter other) {
         decreaseHp(other.getWeapon().getDamage());
     }
 
+    @Override
     public void attack(Fighter other) {
         other.decreaseHp(weapon.getDamage());
     }
-
-    public abstract void dodge(Fighter other);
-    public abstract void escape(Fighter other);
-    public abstract void die();
 }
