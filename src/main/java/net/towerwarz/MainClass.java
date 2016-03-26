@@ -11,7 +11,8 @@ public class MainClass {
     public static void main(String[] args) {
         out.println("Starting TowerWarZ...");
         out.println("Loading dependencies");
-
-        GameInstance game = new GameInstance();
+        
+        // Destroy code, because gameInstance can only be started when user runs an action
+        //GameInstance game = new GameInstance();
     }
 }
