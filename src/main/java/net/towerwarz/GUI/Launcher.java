@@ -1,4 +1,4 @@
-package net.towerwarz.gamegui;
+package net.towerwarz.GUI;
 
 import java.awt.EventQueue;
 
