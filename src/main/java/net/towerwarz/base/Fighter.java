@@ -1,7 +1,5 @@
 package net.towerwarz.base;
 
-import net.towerwarz.enums.Status;
-
 /**
  * Created by Way Yan on 3/25/2016.
  */
