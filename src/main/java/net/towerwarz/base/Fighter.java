@@ -1,11 +1,9 @@
 package net.towerwarz.base;
 
-import net.towerwarz.enums.Status;
-
 /**
  * Created by Way Yan on 3/25/2016.
  */
-public abstract class Fighter {
+public abstract class Fighter implements FighterActions {
     private String def;
     private int mobDataId;
     private int hp;
@@ -64,15 +62,13 @@ public abstract class Fighter {
         this.weapon = weapon;
     }
 
+    @Override
     public void damaged(Enemy other) {
         decreaseHp(other.getWeapon().getDamage());
     }
 
+    @Override
     public void attack(Enemy other) {
         other.decreaseHp(weapon.getDamage());
     }
-
-    public abstract void dodge(Enemy other);
-    public abstract void escape(Enemy other);
-    public abstract void die();
 }
