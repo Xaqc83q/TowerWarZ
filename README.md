@@ -43,16 +43,6 @@ If your maven is not in the `$PATH`, run `sh setup.sh --custom-mvn /path/to/your
 
 If your maven is not in the `%PATH%`, run `sh setup.sh --custom-mvn /c/path/to/your/mvn/executable`
 
-
-**How to build and run manually**
-
-1. `cd` to project (the one that you download)
-2. use the command `mvn package` to build (provided you have installed maven correctly)
-3. a new folder "target" should have been generated.
-4. cd to that folder "target" (should contain generated jar)
-5. `java -cp target/<name of jar> net.towerwarz.MainClass` to run!!!
-
-
 ## Build Status
 Travis-CI
 [![Build Status](https://travis-ci.org/xiurobert/TowerWarZ.svg?branch=master)](https://travis-ci.org/xiurobert/TowerWarZ)
