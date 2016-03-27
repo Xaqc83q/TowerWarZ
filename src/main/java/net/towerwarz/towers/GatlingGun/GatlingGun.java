@@ -1,12 +1,12 @@
-package net.towerwarz.towers.ModernPack.GatlingGun;
+package net.towerwarz.towers.GatlingGun;
 
 /**
  * Created by xiurobert on 2/27/2015
  * Created with IntelliJ IDEA 14.0.3
  */
 
-import net.towerwarz.enums.WeaponType;
 import net.towerwarz.base.Weapon;
+import net.towerwarz.enums.WeaponType;
 
 public class GatlingGun extends Weapon {
     public GatlingGun() {
