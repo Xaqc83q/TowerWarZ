@@ -1,6 +1,12 @@
 #! /bin/bash
 # automatic setup script for TowerWarZ
 
+# Modification to this setup script is NOT Allowed.
+# May result in broken build environment
+# DO NOT pull request to edit this script.
+# Collaborators, we need your help to NOT accept pull requests that change file setup.sh
+# UNLESS @xiurobert explicitly allows it
+
 # Do not touch these
 WRK_SETUPSCRIPT=`pwd`/setup.sh
 TWZ_VER=Dev
