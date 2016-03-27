@@ -1,29 +1,36 @@
 #! /bin/bash
 # automatic setup script for TowerWarZ
 
+# Modification to this setup script is NOT Allowed.
+# May result in broken build environment
+# DO NOT pull request to edit this script.
+# Collaborators, we need your help to NOT accept pull requests that change file setup.sh
+# UNLESS @xiurobert explicitly allows it
+
 # Do not touch these
 WRK_SETUPSCRIPT=`pwd`/setup.sh
 TWZ_VER=Dev
 
 
 
-# If user wants help
-if [ $1 = "--help" ]
+#If user wants help
+if [ $1 = "--help" ];
   then
     echo "Usage: $WRK_SETUPSCRIPT [ --custom-mvn <maven_location> ]"
     echo "Items within [] are optional"
     exit 0;
 fi
 # If user does not specify a maven location
-if [ $1 = "--custom-mvn" ] && [ $2 = "" ]
+if [ $1 = "--custom-mvn" ] && [ $2 = "" ];
   then
     echo "<maven_location> is not specified! Exiting..."
-    exit 0;
+    exit 1;
 fi
+
 
     
 # If user uses default maven location in $PATH
-if [ $1 = "" ]
+if [ $1 = "" ];
   then
     command -v mvn >/dev/null 2>&1 || { 
       echo >&2 "Maven is not found on the system. Setup cannot be completed";
@@ -42,7 +49,7 @@ if [ $1 = "" ]
       echo "Exiting..."
       exit 1;
     
+    fi
 fi
-
-
-
+ 
+ 
