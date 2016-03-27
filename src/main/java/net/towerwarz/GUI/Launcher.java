@@ -6,34 +6,21 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.BorderLayout;
 
-public class Launcher extends JFrame {
+public class Launcher{
 
 	/**
-	 * Launch the application.
+	 * Launch the launcher.
 	 */
 	public static void startLauncher() {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Launcher frame = new Launcher();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * Create the frame.
-	 */
-	public Launcher() {
-		setBounds(100, 100, 735, 586);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		System.out.println("Starting Launcher");
+		JFrame jframe = new JFrame("TowerWarZ");
+		jframe.setVisible(true);
+		jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		jframe.setSize(600, 600);
+		jframe.setVisible(true);
 		
-		JPanel panel = new JPanel();
-		getContentPane().add(panel, BorderLayout.SOUTH);
-
 	}
+
+	
 
 }
