@@ -31,7 +31,7 @@ It is created **out of boredom** and desire of Tower defense games
 2. `chmod +x setup.sh`
 3. `sh setup.sh`
 
-If your maven is not in the `$PATH`, run sh setup.sh --custom-mvn /path/to/your/mvn/executable
+If your maven is not in the `$PATH`, run `sh setup.sh --custom-mvn /path/to/your/mvn/executable`
 
 **Windows Users**
 
@@ -41,7 +41,7 @@ If your maven is not in the `$PATH`, run sh setup.sh --custom-mvn /path/to/your/
 3. `chmod +x setup.sh`
 4. `sh setup.sh`
 
-If your maven is not in the `%PATH%`, run sh setup.sh --custom-mvn /c/path/to/your/mvn/executable
+If your maven is not in the `%PATH%`, run `sh setup.sh --custom-mvn /c/path/to/your/mvn/executable`
 
 ## Build Status
 Travis-CI
