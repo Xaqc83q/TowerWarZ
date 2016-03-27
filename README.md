@@ -24,6 +24,25 @@ Open source Tower Defense Game
 TowerWarZ is a fully open-source Tower Defense Game. ~~It is created because of the lack of open source games~~ 
 It is created **out of boredom** and desire of Tower defense games
 
+### How to build game
+**Linux Users**
+
+1. `git clone https://github.com/xiurobert/TowerWarZ && cd TowerWarZ`
+2. `chmod +x setup.sh`
+3. `sh setup.sh`
+
+If your maven is not in the `$PATH`, run sh setup.sh --custom-mvn /path/to/your/mvn/executable
+
+**Windows Users**
+
+1. Check that you have mSYS/Cygwin installed (This usually comes with Git)
+2. Open up your terminal somewhere
+2. `git clone https://github.com/xiurobert/TowerWarZ && cd TowerWarZ`
+3. `chmod +x setup.sh`
+4. `sh setup.sh`
+
+If your maven is not in the `%PATH%`, run sh setup.sh --custom-mvn /c/path/to/your/mvn/executable
+
 ## Build Status
 Travis-CI
 [![Build Status](https://travis-ci.org/xiurobert/TowerWarZ.svg?branch=master)](https://travis-ci.org/xiurobert/TowerWarZ)
