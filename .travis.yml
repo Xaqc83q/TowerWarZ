@@ -5,6 +5,8 @@ jdk:
 
 #after_success:
 #  - 'mvn clean test jacoco:report coveralls:report'
+after_success:
+  -  bash <(curl -s https://codecov.io/bash)
 
 notifications:
   hipchat:
