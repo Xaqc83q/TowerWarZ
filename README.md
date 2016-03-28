@@ -1,9 +1,11 @@
 # TowerWarZ
 
-[![Stories in Ready](https://badge.waffle.io/xiurobert/TowerWarZ.svg?label=ready&title=Ready)](http://waffle.io/xiurobert/TowerWarZ)
+[![Waffle.IO Status](https://badge.waffle.io/xiurobert/TowerWarZ.svg?label=ready&title=Ready)](http://waffle.io/xiurobert/TowerWarZ)
 [![GratiPay SVG](http://img.shields.io/gratipay/xiurobert.svg)](http://gratipay.com/xiurobert/)
-[![Build Status](https://travis-ci.org/xiurobert/TowerWarZ.svg?branch=master)](https://travis-ci.org/xiurobert/TowerWarZ)
+[![Travis CI Build Status](https://travis-ci.org/xiurobert/TowerWarZ.svg?branch=master)](https://travis-ci.org/xiurobert/TowerWarZ)
 [![GitHub issues](https://img.shields.io/github/issues/xiurobert/TowerWarZ.svg)](https://github.com/xiurobert/TowerWarZ/issues)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+
 
 
 
