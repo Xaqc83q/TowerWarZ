@@ -1,6 +1,4 @@
 # TowerWarZ
-Open source Tower Defense Game
-
 
 [![Stories in Ready](https://badge.waffle.io/xiurobert/TowerWarZ.svg?label=ready&title=Ready)](http://waffle.io/xiurobert/TowerWarZ)
 [![GratiPay SVG](http://img.shields.io/gratipay/xiurobert.svg)](http://gratipay.com/xiurobert/)
@@ -21,9 +19,7 @@ Open source Tower Defense Game
                                                      
 ```
 ## Introduction
-TowerWarZ is a fully open-source Tower Defense Game. ~~It is created because of the lack of open source games~~ 
-It is created **out of boredom** and desire of Tower defense games
-
+TowerWarZ is a fully open-source Tower Defense Game built in Java. We are trying our best to not make it suck, but we do need contributors. If you are a developer, view [this](CONTRIBUTING.md). If you are a game designer, graphic designer or computer artist, view [this instead](CONTRIB_noDev.md)
 ### How to build game
 **Linux Users**
 
