@@ -7,6 +7,9 @@
             <groupId>net.towerwarz</groupId>
             <artifactId>TowerWarZ</artifactId>
             <version>git_v1.0.1-InDes</version>
+            
+            <name>TowerWarZ / Open Source Java Tower Defense</name>
+            <description>WHAM!</description>
 
             <licenses>
                 <license>
@@ -42,6 +45,12 @@
                     <name>Lightning-SF repo</name>
                     <url>http://xiurobert.byethost9.com/maven3/</url>
                 </repository>
+                
+                <repository>
+                        <id>lsf-nexus</id>
+                        <name>LightningSF Nexus</name>
+                        <url>http://nexus.lightningsf.tk/content/groups/public</url>
+                </repository>
             </repositories>
 
 
@@ -65,12 +74,20 @@
                     <plugin>
                         <groupId>org.jacoco</groupId>
                         <artifactId>jacoco-maven-plugin</artifactId>
-                        <version>0.7.2.201409121644</version>
+                        <version>0.7.6.201602180812</version>
                         <executions>
                             <execution>
                                 <id>prepare-agent</id>
                                 <goals>
                                     <goal>prepare-agent</goal>
+                                </goals>
+                            </execution>
+                            
+                            <execution>
+                                <id>report</id>
+                                <phase>test</phase>
+                                <goals>
+                                    <goal>report</goal>
                                 </goals>
                             </execution>
                         </executions>
