@@ -145,5 +145,28 @@ public abstract class Weapon {
         this.canDetectCamo = canDetectCamo;
     }
 
+    public void increaseDamage(float decimal) {
+        damage *= decimal;
+    }
+
+    public void increaseSplashRadius(float decimal) {
+        splashRadius *= decimal;
+    }
+
+    public void increaseSpreadRadius(float decimal) {
+        spreadRadius *= decimal;
+    }
+
+    public void increaseReloadRate(float decimal) {
+        reloadRate *= decimal;
+    }
+
+    /**
+     * Increases level by 1. This should be called whenever {@link #levelUp()} is being overriden
+     */
+    public void increaseLevel() {
+        level++;
+    }
+
     public abstract void levelUp();
 }
