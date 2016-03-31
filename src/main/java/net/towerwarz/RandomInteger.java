@@ -34,4 +34,5 @@ public class RandomInteger {
 
         return rand.nextInt((max - min) + 1) + min;
     }
+
 }
