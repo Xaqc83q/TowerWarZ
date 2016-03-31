@@ -20,8 +20,10 @@ public class FireGunner extends Weapon {
 
     @Override
     public void levelUp() {
-        // Changing the necessary fields
+        increaseDamage(1.5f);
+        increaseSplashRadius(1.5f);
+        increaseSpreadRadius(1.5f);
+        increaseReloadRate(0.75f);
+        increaseLevel();
     }
-
-
 }

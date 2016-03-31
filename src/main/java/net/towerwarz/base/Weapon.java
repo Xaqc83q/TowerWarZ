@@ -49,7 +49,7 @@ public abstract class Weapon {
     /**
      * Sets the description of a weapon/mob
      *
-     * @param def String of what to make the definition
+     * @param def String of what to make the description
      */
 
     public void setDef(String def) {
@@ -143,6 +143,47 @@ public abstract class Weapon {
 
     public void setCanDetectCamo(boolean canDetectCamo) {
         this.canDetectCamo = canDetectCamo;
+    }
+
+    // These only support multiplication. For more complex equations, please make another method
+
+    /**
+     * Multiplies the damage
+     * @param decimal value the damage is multiplied by
+     */
+    public void increaseDamage(float decimal) {
+        damage *= decimal;
+    }
+
+    /**
+     * Multiplies the splash radius
+     * @param decimal value the splash radius is multiplied by
+     */
+    public void increaseSplashRadius(float decimal) {
+        splashRadius *= decimal;
+    }
+
+    /**
+     * Multiplies the spread radius
+     * @param decimal value the spread radius is multiplied by
+     */
+    public void increaseSpreadRadius(float decimal) {
+        spreadRadius *= decimal;
+    }
+
+    /**
+     * Multiplies the reload rate
+     * @param decimal value the reload rate is multiplied by
+     */
+    public void increaseReloadRate(float decimal) {
+        reloadRate *= decimal;
+    }
+
+    /**
+     * Increases the level by 1. This method should be called whenever {@link #levelUp()} is being overriden
+     */
+    public void increaseLevel() {
+        level++;
     }
 
     public abstract void levelUp();

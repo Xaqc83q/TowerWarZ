@@ -18,6 +18,10 @@ public class MachineGun extends Weapon {
 
     @Override
     public void levelUp() {
-        // Changing the necessary fields
+        increaseDamage(1.75f);
+        increaseSplashRadius(1.75f);
+        increaseSpreadRadius(1.75f);
+        increaseReloadRate(0.5f);
+        increaseLevel();
     }
 }

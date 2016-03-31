@@ -20,6 +20,10 @@ public class GatlingGun extends Weapon {
 
     @Override
     public void levelUp() {
-        // Changing the necessary fields
+        increaseDamage(1.2f);
+        increaseSplashRadius(1.2f);
+        increaseSpreadRadius(1.2f);
+        increaseReloadRate(0.9f);
+        increaseLevel();
     }
 }
