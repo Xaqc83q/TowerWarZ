@@ -1,11 +1,11 @@
 # You're not a programmer?
 
-You **still** can contribute!
+It doesn't matter!
 
-At this point in time, we are short of graphics, animations and sounds.
-Of course, we can't make this a successful project with just our programming, right?
+At this point in time, we lack graphics, animations and sounds.
+You know, its a new millenium, and eh... In this new millenium, we don't use primitive things like letters for graphics!
 
-This is why, we need **you**!
+That's why we need **you**!
 
 If you feel that you have some great graphics, tasteful animations or melodious sounds
 to offer us, please file an issue [here](https://github.com/xiurobert/TowerWarZ/issues) with the title as:
